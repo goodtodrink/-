@@ -56,13 +56,14 @@ a:hover, a:active {
 
 .wrap{
     width:80%;
-    margin: 0 auto;
+    margin: 0 auto ;
+    font-family: 微軟正黑體;
 }
 
 .header{
     height: 80px;
     position:relative;
-    background-color: powderblue;
+    background-color: black;
 }
 .header img{
     position:absolute;
@@ -76,9 +77,10 @@ a:hover, a:active {
 }
 
 .nav a{
-    color: purple;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 32px;
+
 }
 
 .nav2{
@@ -92,7 +94,7 @@ a:hover, a:active {
 }
 
 .nav2 a{
-    color: #000;
+    color: whitesmoke;
     line-height:60px;
     text-align: center;
     font-size: 16px;
@@ -104,7 +106,8 @@ a:hover, a:active {
     border: 1px solid #000;
     position: absolute;
     right: 10%;
-    background-color: rgb(127, 244, 255);
+    background-color:#243447;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -115,11 +118,12 @@ a:hover, a:active {
     width: 300px;
     height: 24px;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .login a{
     font-size: 16px;
-    color: #000;
+    color:wheat;
 }
 
 .login h4{
@@ -150,34 +154,39 @@ a:hover, a:active {
     background: #3083BF;
     color:#fff ;
     cursor: pointer;
+    border-radius: 32px;
 }
 
 .buttonpink{
     height: 50px;
     width: 100%;
-    border-color: rgb(233, 125, 188);
+    border-color: rgb(245, 156, 208);
     background: rgb(238, 35, 160);
     color:#fff;
     cursor: pointer;
+    border-radius: 32px;
 }
 
 .signup{
-    width: 20%;
-    height: 400px;
+    width: 25%;
+    height: 450px;
     border: 1px solid #000;
     right: 10%;
-    background-color: rgb(127, 244, 255);
+    background-color:#243447;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 40px auto 40px auto;
+    margin: 100px auto 245px auto;
+    border-radius: 5px;
 }
 
 .signup input{
     width: 100%;
     height: 36px;
     margin-bottom: 20px;
+    background-color:#FFFFBB;
 }
 
 .signup h2{
@@ -192,20 +201,22 @@ a:hover, a:active {
 .signup select{
     margin-left: 20px;
     width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .profile{
     width: 30%;
     height: 100%;
     border: 1px solid #000;
+    border-radius: 5px;
+    color: white;
     right: 10%;
-    background-color: rgb(127, 244, 255);
+    background-color:#243447;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin: 40px auto 40px auto;
+    margin: 40px auto 0px auto;
 }
 
 .profile input{
@@ -213,6 +224,7 @@ a:hover, a:active {
     width: 100%;
     height: 36px;
     margin-bottom: 20px;
+    background-color:#FFFFBB;
 }
 
 .profile h2{
@@ -231,11 +243,11 @@ a:hover, a:active {
   }
   
 .list th{
-    border: 1px solid #000;
+    border: 1px solid black;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: #000;
+    color: #BBFFEE;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -244,8 +256,7 @@ a:hover, a:active {
 
 .list td{
     text-align: center;
-    color: #000;
-    border: 1px solid #000;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -265,14 +276,15 @@ a:hover, a:active {
 }
 
 .allvote{
-    border: 1px solid #000;
+    border: 1px solid white;
     float: left;
     width: 80%;
     padding: 10px 10px 10px 10px;
+    margin-bottom: 55px;
 }
 
 .nowvoting{
-    border: 1px solid #000;
+    border: 3px inset #AAAAAA;
     margin: 20px auto 20px auto;
     height: 100%;
     width: 60%;
@@ -286,25 +298,53 @@ a:hover, a:active {
     text-align: center;
     float: left;
     width: 100%;
+   
 }
 
 .candidate ul{
     text-align: center;
     float: left;
     padding-left: 20% ;
+   
 }
 
 .candidate li{
     float: left;
     margin-right: 10px;
+
 }
 
 .acandidate{
     margin-bottom:  20px;
 }
 
-.acandidate button{
+.button{
     margin-bottom: 20px;
+    background-color: rgb(243, 56, 128); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.joinvote{
+    margin-bottom: 20px;
+    background-color:#888888; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 .footer{
@@ -312,12 +352,43 @@ a:hover, a:active {
     background: pink;
     color: #000;
     text-align: center;
+    margin-top: 100px;
 }
 
 .footer h4{
-    font-size: 36px;
+    font-size: 64px;
     font-weight: bold;
 }
+.cb {
+    display: none;
+  }
+  label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px;
+  }
+  label:before {
+    line-height: 20px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border: 3px solid grey;
+  }
+  input[type=checkbox]:checked + label:before,
+  label:hover:before {
+    content: "\2713";
+    color: black;
+    text-align: center;
+    line-height: 16px;
+  }
 
 .clear{
     clear:both;
